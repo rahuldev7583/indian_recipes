@@ -1,50 +1,77 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-h1{
-  font-size: 1.5rem;
+h4 {
+  font-size: 1.2rem;
   text-align: center;
-  margin-top: 1rem;
+  margin: 1rem 1rem;
 }
-img{
+img {
   margin: 10px;
-  height: 30vh;
+  height: 28vh;
   position: relative;
   left: 20vw;
+  border-radius: 30px;
 }
-#img2{
- position: relative;
- left: 10vw;
+#img2 {
+  position: relative;
+  left: 10vw;
 }
-.content{ 
+h3 {
+  margin-left: 0.6rem;
+}
+.content {
   margin-left: 10vw;
 }
-p{
+p {
   width: 80vw;
+  margin: 10px;
 }
-button{
-  font-size: 1.2rem;
-  padding: 3px;
-  margin: 1rem 0 0 7rem;
-  background-color: white;
+button {
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+  margin: 1rem 6rem 2rem 0;
+  color: white;
+  background-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 20px;
+  cursor: pointer;
 }
-li{
+button:hover {
+  color: black;
+  background-color: white;
+}
+li {
   margin: 5px 0 5px 0;
 }
-@media  (min-width: 768px){
-  p{
-    font-size: 2rem;
+@media (min-width: 1024px) {
+  h4 {
+    font-size: 1.8rem;
   }
-  button{
-    font-size: 3rem;
-    border: 5px solid black;
-    border-radius: 10px;
+  img {
+    height: 60vh;
+  }
+  #img2 {
+    left: 20rem;
+  }
+  .content {
     margin-left: 20rem;
   }
-  li{
-    margin: 1rem 0 1rem 0;
+  p {
+    width: 60%;
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1.2rem;
+  }
+  .div1,
+  .div2,
+  .div3 {
+    margin-left: 14rem;
   }
 }
